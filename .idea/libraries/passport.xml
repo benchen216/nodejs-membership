@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="passport" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/node_modules/passport" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/node_modules/passport" />
+    </CLASSES>
+    <DOCUMENTATION>
+      <root url="http://www.passportjs.org/docs/" />
+    </DOCUMENTATION>
+    <SOURCES />
+  </library>
+</component>

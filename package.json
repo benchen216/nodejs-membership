@@ -1,0 +1,45 @@
+{
+  "name": "trymyself",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@babel/core": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "bcrypt": "^1.0.2",
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "dotenv": "^6.2.0",
+    "express": "~4.14.0",
+    "express-handlebars": "^3.0.2",
+    "express-mysql-session": "^2.1.0",
+    "express-session": "^1.15.6",
+    "express-validator": "^3.2.0",
+    "fsevents": "^1.2.7",
+    "hbs": "~4.0.1",
+    "morgan": "~1.7.0",
+    "mysql": "^2.13.0",
+    "passport": "^0.4.0",
+    "serve-favicon": "~2.3.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dotenv-plugin": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.4.0",
+    "browser-sync": "^2.26.3",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "chai": "^3.5.0",
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "mocha": "^3.4.1",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.13.1"
+  }
+}
